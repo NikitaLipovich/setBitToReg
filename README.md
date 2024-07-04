@@ -38,7 +38,7 @@ int main() {
     return 0;
 }
 ```
-## Part 2: Fast resolve which i like
+## Part 2: Fast solution which i like
 ```
 #include <stdio.h>
 
