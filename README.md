@@ -63,8 +63,11 @@ int main() {
 ```
 
 3. Why did I forget the bitwise not?
-3.1. When I work under a microcontroller, for example Cortex-m. I usually write macro functions #define beforeSomphing(a,b) ~(a&b) and use macros.
-3.2. When I was parsing a lot of packets from the CAN network and applying masks, for routine operations it was enough for me to simply multiply by the mask which I collected with the hex value 0xFA for example. And I simply added the installation bit I needed.
+3.1. When I work under a MCU (stm32f*, infineon xe167, pic, etc), for example Cortex-m. I usually write macro functions
+```
+   #define beforeSomphing(a,b) ~(a&b) and use macros.
+```
+3.2. When I was parsing a lot of packets from the CAN network and applying masks under SOC imx6 or Nvidia Jetson using C++ Qt framework, for routine operations it was enough for me to simply multiply by the mask which I collected with the hex value 0xFA for example. And I simply added the installation bit I needed.
 
 Therefore, when I realized that in the first part I partially wrote rubbish, I had to implement this task as well.
 
