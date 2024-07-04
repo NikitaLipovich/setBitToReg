@@ -3,7 +3,7 @@ The solution to the first problem from the interview is in the main.с
 
 # Explanation
 When I came to the decision during the interview, I experienced two logical difficulties:
-1. I forgot the bitwise not operator as a symbol (~) in the syntax and therefore thought about how to use xor (exclusive or).
+1. I forgot the bitwise not operator as a symbol (~) in the syntax and therefore thought about how to use xor (^).
 2. I thought that I could do this with xor, because recently, for preparation purposes, I wrote two implementations of the function and a solution using exclusive and I really liked it because of the speed of execution.
 
 # 2. The task was formulated as follows:
