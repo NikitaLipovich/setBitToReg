@@ -70,9 +70,10 @@ Therefore, when I realized that in the first part I partially wrote rubbish, I h
 
 ## Solution
 I implemented two functions:
+```
 uint16_t setBitToRegImp1(uint16_t reg_number, uint8_t bit_number, uint8_t set_reset, uint16_t *base );
 uint16_t setBitToRegImp2(uint16_t reg_number, uint8_t bit_number, uint8_t set_reset, uint16_t *base );
-
+```
 base is passed by pointer so that I can compile and check.
 
 The setBitToRegImp2 function will work faster because if it sets a value, it only needs to do one operation.
