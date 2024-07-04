@@ -8,7 +8,7 @@ When I came to the decision during the interview, I experienced two logical diff
 
 # 2. The task was formulated as follows:
 There is some kind of control register. I write a value into it and if the value is not written to all the bits, identify the bits in which the writing did not occur. Let's say because some bits are read only. But I don’t know in advance and must find these bits with code.
-## Part 1: Typical resolve
+## Part 1: Typical solution
 ```
 #include <stdio.h>
 
@@ -38,7 +38,7 @@ int main() {
     return 0;
 }
 ```
-## Part 2: Fast resolve which me like
+## Part 2: Fast resolve which i like
 ```
 #include <stdio.h>
 
