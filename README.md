@@ -31,7 +31,9 @@ void check_bits(unsigned int var) {
 }
 
 int main() {
-    unsigned int variable = 25; // Пример переменной для проверки
+    // declare variable
+    // variable = 19
+    unsigned int variable = 25; // value after write
 
     check_bits(variable);
 
@@ -54,7 +56,9 @@ void check_bits(unsigned int var) {
 }
 
 int main() {
-    unsigned int variable = 25; // Пример переменной для проверки
+    // declare variable
+    // variable = 19
+    unsigned int variable = 25; // value after write
 
     check_bits(variable);
 
