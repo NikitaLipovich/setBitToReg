@@ -75,8 +75,13 @@ uint16_t setBitToRegImp2(uint16_t reg_number, uint8_t bit_number, uint8_t set_re
 
 base is passed by pointer so that I can compile and check.
 
-The setBitToRegImp2 function will work faster because if it sets a value, it only needs to do one operation. *reg |= bit_pos.
+The setBitToRegImp2 function will work faster because if it sets a value, it only needs to do one operation.
+```
+ *reg |= bit_pos.
+```
 
 When the function is setBitToRegImp1, the same function will always do 3 operations.
+```
  *reg &= mask_to_reset;
  *reg |= set_reset << bit_number;
+```
